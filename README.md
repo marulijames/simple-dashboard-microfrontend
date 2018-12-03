@@ -1,6 +1,6 @@
-# My Simple Dashboard
+# Simple Dashboard Microfrontend
 
-Simple dashboard application, built using single-spa framework for frontend microservice architecture implementation, React for building UI, and Webpack for module bundler.
+Simple dashboard application, built using Single Spa framework for frontend microservice architecture implementation, React for building UI, and Webpack for module bundler.
 
 ## App Link
 
@@ -28,12 +28,12 @@ You need node and npm to run this project.
 ## Deployment
 
 First deploy each microfrontend service (project in all folder) individually.<br/> 
-- Make sure all of the url of loadApp() in master.js set according to the deployed services url. 
-- In helper.js use runScript() function instead of SystemJS.import() to import store.js .
+- Make sure all of the url of loadApp() in master-template/src/master.js set according to the deployed services url. 
+- In master-template/src/helper.js use runScript() function instead of SystemJS.import() to import store.js .
 
 ## Built With
 
-* [React](https://reactjs.org/) - The UI Framework
+* [React](https://reactjs.org/) - UI Framework
 * [Single Spa](https://single-spa.js.org/) - Front-End Microservices Framework
 * [Webpack](https://webpack.js.org/) - Module Bundler
 
@@ -47,6 +47,6 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-* [single-spa-portal-example] (https://github.com/me-12/single-spa-portal-example)
+* [single-spa-portal-example](https://github.com/me-12/single-spa-portal-example)
 
 
