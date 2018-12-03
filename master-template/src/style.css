@@ -1,0 +1,18 @@
+body {
+    background-color: #e5e5e8;   /*  here is the color  */
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    color: black;
+    font: normal 13px/1.8em 'Roboto', sans-serif;
+    text-align: left;
+}
+#header-service{
+    width:100%;
+}
+#left-menu-service, #services-a-b-c {
+    position : relative;
+    width :inherit;
+    top : 10px;
+}
+

@@ -1,0 +1,8 @@
+.home-section{
+    background-color: #ffffff;
+    min-height: 400px
+}
+
+.home-section .content{
+    padding: 20px 0px 0px 20px;
+}

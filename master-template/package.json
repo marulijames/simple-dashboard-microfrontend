@@ -1,0 +1,36 @@
+{
+  "name": "master-template",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "heroku-postbuild": "webpack -p",
+    "watch": "webpack-dev-server --port 9000" 
+  },
+  "author": "Maruli James Herbert",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "eslint": "^5.9.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^4.5.1",
+    "single-spa": "^4.0.0",
+    "systemjs": "^0.21.4",
+    "zone.js": "^0.8.26",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
