@@ -2,6 +2,10 @@
 
 Simple dashboard application, built using single-spa framework for frontend microservice architecture implementation, React for building UI, and Webpack for module bundler.
 
+## App Link
+
+https://xendit-test-james.herokuapp.com
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development. See deployment for notes on how to deploy the project on a live system.
@@ -23,7 +27,9 @@ You need node and npm to run this project.
 
 ## Deployment
 
-Make sure all of the url of loadApp() in master.js set according to the services deployed url. Use SystemJS to import store.js in helper.js file
+First deploy each microfrontend service (project in all folder) individually.<br/> 
+- Make sure all of the url of loadApp() in master.js set according to the deployed services url. 
+- In helper.js use runScript() function instead of SystemJS.import() to import store.js .
 
 ## Built With
 
